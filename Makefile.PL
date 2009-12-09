@@ -9,6 +9,7 @@ requires 'Moose';
 requires 'MooseX::Types';
 requires 'MooseX::ClassAttribute';
 requires 'DateTime';
+requires 'DateTime::Format::Strptime';
 requires 'List::Util';
 
 license     'perl';

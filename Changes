@@ -1,4 +1,7 @@
 Revision history for Parse-FixedRecord
 
+0.02    2009 Dec 09
+        Added missing dep on DateTime::Format::Strptime
+
 0.01    2009 Dec 08
         First version
