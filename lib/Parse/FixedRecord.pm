@@ -84,7 +84,7 @@ C<' | '>.
 
 =head3 C<$parser-E<gt>parse>
 
-  my $obj = $parser->parse( $line );
+  my $obj = My::Parser->parse( $line );
 
 If the C<column> and C<pic> definitions can be matched, including any
 type constraints and object inflations, then a Moose object is returned.
