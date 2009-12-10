@@ -51,7 +51,7 @@ you out of the box.
 
 =head2 Definition
 
-To define the class, simply apply C<column> and C<has> for each field, in
+To define the class, simply apply C<column> and C<pic> for each field, in
 the order they appear in your input file.  They are defined as follows:
 
 =head3 C<column>

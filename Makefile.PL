@@ -10,6 +10,7 @@ requires 'MooseX::Types';
 requires 'MooseX::ClassAttribute';
 requires 'DateTime';
 requires 'DateTime::Format::Strptime';
+requires 'DateTime::Format::Duration';
 requires 'List::Util';
 
 license     'perl';
