@@ -7,6 +7,7 @@ all_from    'lib/Parse/FixedRecord.pm';
 
 requires 'Moose';
 requires 'MooseX::Types';
+requires 'MooseX::AttributeHelpers';
 requires 'MooseX::ClassAttribute';
 requires 'DateTime';
 requires 'DateTime::Format::Strptime';
