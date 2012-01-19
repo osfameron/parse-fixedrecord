@@ -39,6 +39,7 @@ use Parse::FixedRecord;
 use Parse::FixedRecord::Column;
 
 use MooseX::ClassAttribute;
+use MooseX::AttributeHelpers;
 use Moose::Util::TypeConstraints;
 use DateTime::Format::Strptime;
 use DateTime::Format::Duration;

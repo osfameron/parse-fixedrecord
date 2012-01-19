@@ -13,5 +13,5 @@ my $test_data = 'Fred J Bloggs | Not a date | 02:03';
 
 throws_ok {
     my $obj = Row::Test->parse( $test_data );
-    } qr/Attribute \(date\) does not pass the type constraint because: Validation failed for 'Date' failed with value undef/;
+    } qr/Attribute \(date\) does not pass the type constraint because: Validation failed for 'Date' (?:failed )?with value undef/;
 
